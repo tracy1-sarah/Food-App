@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import vegetableSalad from '../../assets/foood.jpeg'
 import { styles } from './styles'
 import { foods } from '../../data/foods'
+import {useNavigation} from '@react-navigation/native'
 
 export default function Main() {
     const [selected, setSelected] = useState(null)
@@ -27,11 +28,10 @@ export default function Main() {
 }
 
 
-
 function FoodCard({food}) {
-    console.log(food);
+    const navigate = useNavigation()
     return (
-        <Pressable >
+        <Pressable onPress={()=>{navigate.navigate("Menu details",{food})}} >
             <View style={styles.foodContainer}>
                 <Image source={food.image} style={styles.image}/>
                 <Text>{food.name}</Text>

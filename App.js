@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Homepage from './screens/homepage';
 import Main from './screens/main';
+import FoodDetails from './screens/details';
 
 
 
@@ -17,7 +18,8 @@ export default function App() {
       {/* <StatusBar style="light" /> */}
       <Stack.Navigator>
           <Stack.Screen name="Home" component={Homepage} options={{headerShown:false}} />
-          <Stack.Screen name="Main" component={Main}/>
+          <Stack.Screen name="Main" component={Main} options={{headerShown:false}}/>
+          <Stack.Screen name="Menu details" component={FoodDetails} options={{headerShown:false}}/>
       </Stack.Navigator>
     </NavigationContainer>
 
