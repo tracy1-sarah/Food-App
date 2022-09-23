@@ -6,7 +6,6 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 export default function FoodDetails(props) {
     const { width, height } = Dimensions.get('screen')
     const food = props.route.params.food;
-    console.log(props)
     return (
         <View style={{ flex: 1, backgroundColor:"#fff" }}>
             <ScrollView style={{ flex: 1 }}>

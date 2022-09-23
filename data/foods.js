@@ -1,7 +1,7 @@
 export const foods =[
     {
         id: 1,
-        name: 'Plantain Fritata',
+        name: 'Fish fries',
         image:require('../assets/steaks.jpeg'),
         ingredients: "Plantain Frittata is a delicious breakfast of plantain and eggs cooked slightly different. It's so easy to make yet so tasty. My perfect Sunday morning breakfast.",
         price:"$350"
@@ -17,7 +17,7 @@ export const foods =[
     },
     {
         id: 3,
-        name: 'Barbecue',
+        name: 'Steak and Veggies',
         image:require('../assets/front.jpg'),
         ingredients: "Barbecue chicken consists of chicken parts or entire chickens that are barbecued, grilled or smoked. There are many global and regional preparation techniques and cooking styles. Barbecue chicken is often seasoned or coated in a spice rub, barbecue sauce, or both",
         price:"$350"
@@ -26,7 +26,7 @@ export const foods =[
     },
     {
         id: 4,
-        name: 'Lemonade Squash',
+        name: 'Assorted Peas',
         image:require('../assets/veges.jpeg'),
         ingredients: "Homemade Lemon squash is made with only two ingredients. Lemon juice and sugar.The lemon juice with sugar are boiled until the juice is reduced and becomes concentrated into a thick syrup. It can be stored for a long time and when diluted with water, we have lemonade.",
         price:"$350"
@@ -34,7 +34,7 @@ export const foods =[
     },
     {
         id: 5,
-        name: 'Scrambled Eggs',
+        name: 'Strawberries',
         image:require('../assets/food.jpeg'),
         ingredients: "Scrambled eggs is a dish made from eggs stirred, whipped or beaten together while being gently heated, typically with salt, butter, oil and sometimes other ingredients.",
         price:"$350"
